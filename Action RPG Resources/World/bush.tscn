@@ -6,7 +6,7 @@
 radius = 7.0
 height = 12.0
 
-[node name="StaticBody2D" type="StaticBody2D"]
+[node name="Bush" type="StaticBody2D"]
 
 [node name="Sprite" type="Sprite" parent="."]
 position = Vector2( 0, -5 )
