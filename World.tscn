@@ -8,20 +8,32 @@
 [node name="Player" parent="." instance=ExtResource( 2 )]
 position = Vector2( 88, 72 )
 
-[node name="StaticBody2D" parent="." instance=ExtResource( 1 )]
-position = Vector2( 24, 120 )
+[node name="Bush" parent="." instance=ExtResource( 1 )]
+position = Vector2( 56, 88 )
 
-[node name="StaticBody2D2" parent="." instance=ExtResource( 1 )]
-position = Vector2( 128, 136 )
+[node name="Bush2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 104, 120 )
 
-[node name="StaticBody2D3" parent="." instance=ExtResource( 1 )]
-position = Vector2( 80, 152 )
+[node name="Bush3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 160, 88 )
 
-[node name="StaticBody2D4" parent="." instance=ExtResource( 1 )]
-position = Vector2( 136, 96 )
+[node name="Bush4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 160, 128 )
 
-[node name="StaticBody2D5" parent="." instance=ExtResource( 1 )]
-position = Vector2( 24, 160 )
+[node name="Bush5" parent="." instance=ExtResource( 1 )]
+position = Vector2( 72, 112 )
 
-[node name="StaticBody2D6" parent="." instance=ExtResource( 1 )]
-position = Vector2( 32, 72 )
+[node name="Bush6" parent="." instance=ExtResource( 1 )]
+position = Vector2( 112, 48 )
+
+[node name="Bush7" parent="." instance=ExtResource( 1 )]
+position = Vector2( 144, 64 )
+
+[node name="Bush8" parent="." instance=ExtResource( 1 )]
+position = Vector2( 64, 56 )
+
+[node name="Bush9" parent="." instance=ExtResource( 1 )]
+position = Vector2( 32, 120 )
+
+[node name="Bush10" parent="." instance=ExtResource( 1 )]
+position = Vector2( 192, 88 )
