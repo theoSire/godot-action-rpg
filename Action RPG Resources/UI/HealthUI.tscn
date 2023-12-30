@@ -17,4 +17,5 @@ stretch_mode = 2
 margin_right = 59.0
 margin_bottom = 11.0
 texture = ExtResource( 2 )
+expand = true
 stretch_mode = 2
