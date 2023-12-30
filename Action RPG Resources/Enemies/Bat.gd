@@ -6,7 +6,6 @@ export var ACCELERATION = 300
 export var MAX_SPEED = 50
 export var FRICTION = 200
 
-
 enum {
 	IDLE,
 	WANDER,
