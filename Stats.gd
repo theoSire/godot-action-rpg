@@ -10,7 +10,7 @@ signal max_health_changed(value)
 func set_max_health(value):
 	max_health = value
 	self.health = min(health, max_health)
-	emit_signal("max_health_changed")
+	emit_signal("max_health_changed", max_health)
 
 func set_health(value):
 	health = value
