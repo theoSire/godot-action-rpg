@@ -13,6 +13,7 @@
 [sub_resource type="ShaderMaterial" id=52]
 shader = ExtResource( 9 )
 shader_param/active = false
+shader_param/player = true
 
 [sub_resource type="CapsuleShape2D" id=1]
 radius = 4.0
