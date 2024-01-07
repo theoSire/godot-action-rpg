@@ -15,6 +15,7 @@
 resource_local_to_scene = true
 shader = ExtResource( 10 )
 shader_param/active = false
+shader_param/player = false
 
 [sub_resource type="AtlasTexture" id=1]
 atlas = ExtResource( 2 )
@@ -104,23 +105,20 @@ script = ExtResource( 4 )
 material = SubResource( 12 )
 frames = SubResource( 6 )
 animation = "Fly"
-frame = 2
+frame = 4
 playing = true
 offset = Vector2( 0, -12 )
 
 [node name="ShadowSprite" type="Sprite" parent="."]
-visible = false
 texture = ExtResource( 1 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-visible = false
 shape = SubResource( 7 )
 
 [node name="Hurtbox" parent="." instance=ExtResource( 3 )]
 collision_layer = 8
 
 [node name="CollisionShape2D" parent="Hurtbox" index="0"]
-visible = false
 position = Vector2( 0, -13 )
 shape = SubResource( 8 )
 
@@ -130,7 +128,6 @@ max_health = 2
 [node name="PlayerDetectionZone" parent="." instance=ExtResource( 6 )]
 
 [node name="CollisionShape2D" parent="PlayerDetectionZone" index="0"]
-visible = false
 modulate = Color( 0.309804, 0.0392157, 0.0392157, 0.329412 )
 shape = SubResource( 9 )
 
@@ -138,14 +135,12 @@ shape = SubResource( 9 )
 collision_mask = 4
 
 [node name="CollisionShape2D" parent="Hitbox" index="0"]
-visible = false
 position = Vector2( 0, -15 )
 shape = SubResource( 10 )
 
 [node name="SoftCollision" parent="." instance=ExtResource( 8 )]
 
 [node name="CollisionShape2D" parent="SoftCollision" index="0"]
-visible = false
 shape = SubResource( 11 )
 
 [node name="WanderController" parent="." instance=ExtResource( 9 )]
